@@ -1,0 +1,24 @@
+{
+  "name": "jupiter-swap-cli",
+  "version": "1.0.0",
+  "description": "CLI tool to swap SOL to USDC using Jupiter V6 API",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "keywords": ["solana", "jupiter", "swap", "cli", "defi"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "@solana/web3.js": "^1.87.6",
+    "axios": "^1.6.2",
+    "bs58": "^5.0.0",
+    "commander": "^11.1.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+} 
