@@ -69,6 +69,7 @@ MAX_PRIORITY_FEE_MICRO_LAMPORTS=30000
 
 ## 📱 Scripts disponibles
 
+<<<<<<< HEAD
 ### 1. Scripts npm recommandés
 ```bash
 npm run swap           # Mode swap régulier
@@ -79,6 +80,9 @@ npm run swap:priority  # Mode swap avec priority fee
 - Aucune configuration supplémentaire requise pour le mode priority
 
 ### 2. Script principal (legacy)
+=======
+### 1. Script principal
+>>>>>>> 7acc588eb1356aa72443dadabda33980939b50b9
 ```bash
 node index.js
 ```
@@ -86,7 +90,11 @@ node index.js
 - Applique automatiquement les platform fees
 - Utilise le mode de priority fee configuré
 
+<<<<<<< HEAD
 ### 3. Script de test/démonstration
+=======
+### 2. Script de test/démonstration
+>>>>>>> 7acc588eb1356aa72443dadabda33980939b50b9
 ```bash
 node test-priority-fees.js
 ```

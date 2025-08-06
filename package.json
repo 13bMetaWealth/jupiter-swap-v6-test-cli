@@ -6,6 +6,7 @@
   "type": "module",
   "scripts": {
     "start": "node index.js",
+<<<<<<< HEAD
     "dev": "node --watch index.js",
     "server": "node server.js",
     "swap": "node swap-no-priority.js",
@@ -43,3 +44,21 @@
     "@solana/spl-token": "^0.4.13"
   }
 }
+=======
+    "dev": "node --watch index.js"
+  },
+  "keywords": ["solana", "jupiter", "swap", "cli", "defi"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "@solana/web3.js": "^1.87.6",
+    "axios": "^1.6.2",
+    "bs58": "^5.0.0",
+    "commander": "^11.1.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+} 
+>>>>>>> 7acc588eb1356aa72443dadabda33980939b50b9
