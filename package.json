@@ -1,0 +1,45 @@
+{
+  "name": "jupiter-swap-cli",
+  "version": "1.0.0",
+  "description": "CLI tool to swap SOL to USDC using Jupiter V6 API",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "server": "node server.js",
+    "swap": "node swap-no-priority.js",
+    "swap:priority": "node swap-priority.js",
+    "profile": "node performance-profiler.js",
+    "profile:baseline": "node baseline-report-generator.js",
+    "profile:report": "node display-report.js"
+  },
+  "bin": {
+    "jup-swap": "./swap-no-priority.js",
+    "jup-swap-priority": "./swap-priority.js"
+  },
+  "keywords": [
+    "solana",
+    "jupiter",
+    "swap",
+    "cli",
+    "defi"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@solana/spl-token": "^0.4.13",
+    "@solana/web3.js": "^1.87.6",
+    "axios": "^1.6.2",
+    "bs58": "^5.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "overrides": {
+    "@solana/spl-token": "^0.4.13"
+  }
+}
